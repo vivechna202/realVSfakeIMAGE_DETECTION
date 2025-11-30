@@ -3,12 +3,6 @@
 This project uses a Convolutional Neural Network to classify whether an image is Real or Fake.
 Includes webcam support, live prediction visualization, Keras model and TFLite model support and gradient UI in Streamlit.
 
-## Technology Stack
-- TensorFlow / TFLite
-- Streamlit
-- OpenCV
-- Matplotlib
-
 ## Run locally
 streamlit run app.py
 
