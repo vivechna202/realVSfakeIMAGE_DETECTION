@@ -1,0 +1,58 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# Streamlit
+.streamlit/
+
+# Model files (ignore large model files in Git to avoid upload issues)
+*.h5
+*.keras
+*.tflite
+*.pb
+*.sav
+*.pth
+*.onnx
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IDEs
+.idea/
+
+# Logs
+*.log
+
+# Images or dataset folders (optional)
+dataset/
+*.zip
+*.rar
+
+# Uploaded images or temporary files
+uploads/
+
+# Mac system files (ignore if not Mac, still safe)
+._*
+
+# Windows system files
+desktop.ini
+
+# Temporary build files / packaging
+build/
+dist/
+*.egg-info/
