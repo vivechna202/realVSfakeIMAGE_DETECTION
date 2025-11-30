@@ -48,7 +48,7 @@ with st.sidebar:
 
 
 # ------------------- LOAD TFLITE MODEL ------------------
-interpreter = tf.lite.Interpreter(model_path=r"models\cifake_model.tflite")
+interpreter = tf.lite.Interpreter(model_path=r"cifake_model.tflite")
 interpreter.allocate_tensors()
 
 input_details = interpreter.get_input_details()

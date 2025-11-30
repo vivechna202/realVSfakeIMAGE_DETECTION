@@ -9,7 +9,7 @@ st.set_page_config(page_title="Real vs Fake Image Detection", layout="centered")
 
 st.title("🕵️ Real vs Fake Image Detection using CNN")
 
-model = tf.keras.models.load_model(r"C:\Users\Vivechna Singh\Downloads\real_fake_model.keras")  
+model = tf.keras.models.load_model(r"real_fake_model.keras")  
 class_names = ["Fake", "Real"]
 
 st.write("### Upload an image or capture from webcam")
